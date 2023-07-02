@@ -1,0 +1,24 @@
+.img-thumb {
+  width: 250px;
+  height: auto;
+}
+
+.img-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 35px 25px 35px;
+}
+
+.text-wrap {
+  padding: 0px 35px;
+}
+
+.card {
+  padding: 45px 0px;
+}
+
+.text-title {
+  width: auto;
+  height: 60px;
+}

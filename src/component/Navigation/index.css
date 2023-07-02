@@ -1,0 +1,28 @@
+.nav-menu {
+  padding-bottom: 60px;
+}
+
+.nav-list {
+  display: inline-block;
+  position: relative;
+  color: #463c74 !important;
+  font-weight: bold;
+}
+
+.nav-list::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #b4d51e;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-list:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

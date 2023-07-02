@@ -1,0 +1,8 @@
+.bg {
+  background-image: url("src/assets/Recommended.png");
+  height: 500px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

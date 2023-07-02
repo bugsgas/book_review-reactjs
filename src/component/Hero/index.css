@@ -1,0 +1,33 @@
+.hero {
+  padding-bottom: 60px;
+}
+
+.hero-bg {
+  background-image: url("src/assets/Hero.png");
+  height: 500px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-text {
+  padding: 142px 0px 98px 100px;
+}
+
+.head-text h1 {
+  color: #463c74;
+  font-size: 48px;
+}
+
+.head-text p {
+  color: rgb(14, 13, 13);
+  font-size: 18px;
+}
+
+.head-button {
+  background-color: #b4d51e !important;
+  border: none;
+  font-size: 18px;
+  padding: 15px 30px;
+}
