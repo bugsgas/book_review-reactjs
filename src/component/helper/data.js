@@ -8,7 +8,7 @@ export const bookList = [
   {
     thumbnail: "/src/assets/pic1.png",
     title: "How To Master Your Habits",
-    rating: "5",
+    rating: "4.65",
     author: "Felix Y Siauw",
   },
   {

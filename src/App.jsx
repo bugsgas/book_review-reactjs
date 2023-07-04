@@ -11,15 +11,13 @@ import Recommended from "./component/Recommended";
 import Footer from "./component/Footer";
 import Testimony from "./component/Testimony";
 
-import { bookList, bookList2 } from "./component/helper/data";
-
 function App() {
   return (
     <>
       <Header />
       <Navigation />
       <Hero />
-      <Popular booklist={bookList} />
+      <Popular />
 
       <Recommended />
       <Testimony />
